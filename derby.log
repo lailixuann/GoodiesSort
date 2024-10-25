@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Oct 25 13:39:15 MYT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0192-c22f-a62d-00000c706da8 
+on database directory /Users/lailixuan/Documents/GitHub/GoodiesSort/myDB with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/Users/lailixuan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_401-b10
+user.dir=/Users/lailixuan/Documents/GitHub/GoodiesSort
+os.name=Mac OS X
+os.arch=aarch64
+os.version=14.2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

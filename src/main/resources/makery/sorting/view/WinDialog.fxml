@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" styleClass="background" stylesheets="@Game.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="makery.sorting.view.WinDialogController">
+   <children>
+      <Text layoutX="30.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="headerLabel" text="Congratulations!" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="25.0">
+         <effect>
+            <DropShadow color="#f2a2a2" />
+         </effect>
+      </Text>
+      <Text layoutX="11.0" layoutY="80.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="contentLabel" text="You have passes this level! Now you may choose to quit or proceed to the next level." wrappingWidth="338.3800048828125" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="30.0" />
+      <ButtonBar layoutX="86.0" layoutY="146.0" prefHeight="32.0" prefWidth="380.0" stylesheets="@Game.css" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0">
+        <buttons>
+          <Button fx:id="quitButton" mnemonicParsing="false" onAction="#handleQuit" styleClass="cancel-button" text="Quit">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="nextLevelButton" mnemonicParsing="false" onAction="#handleNextLevel" styleClass="next-button" text="Next Level">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

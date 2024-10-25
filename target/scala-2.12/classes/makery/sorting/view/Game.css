@@ -1,0 +1,67 @@
+.background{
+    -fx-background-color: #ffecec;
+}
+
+.main-shelf{
+    -fx-alignment: center-left;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-padding: 40px;
+}
+
+.shelf {
+    -fx-background-color: #C19A6B;
+    -fx-border-color: #815438;
+    -fx-border-width: 5px;
+    -fx-pref-width: 170px;
+    -fx-pref-height: 100px;
+    -fx-spacing: 10px;
+}
+
+.item-image {
+    -fx-pref-width: 50px;
+    -fx-pref-height: 100px;
+}
+
+.game-button {
+    -fx-font-size: 20px;
+    -fx-text-fill: #ed7786;
+    -fx-background-color: white cover;
+    -fx-border-color: #ed7786;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 4pt;
+    -fx-background-radius: 4pt;
+}
+
+.game-button:hover{
+    -fx-background-color: #ed7786 cover;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+}
+
+.headerLabel {
+    -fx-fill: #ef868a;
+    -fx-font-size: 25px;
+    -fx-font-family: "Trebuchet MS";
+}
+
+.contentLabel {
+    -fx-fill: #8e5c60;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-text-fill: #ed7786;
+    -fx-background-color: white cover;
+    -fx-border-color: #ed7786;
+    -fx-padding: 5px 22px;
+    -fx-border-radius: 4pt;
+    -fx-background-radius: 4pt;
+}
+
+.button:hover{
+    -fx-background-color: #ed7786;
+    -fx-text-fill: white;
+    -fx-border-color: #ed7786;
+}

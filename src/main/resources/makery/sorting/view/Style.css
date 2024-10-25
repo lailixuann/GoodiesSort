@@ -1,0 +1,59 @@
+.label-header {
+    -fx-font-size: 48pt;
+    -fx-font-family: "Papyrus";
+    -fx-text-fill: white;
+}
+
+.background-welcome{
+    -fx-background-image: url("../image/bg.png");
+    -fx-background-size: 700px 500px;
+    -fx-background-position: center bottom 1px;
+    -fx-background-color: #ffd3d9;
+    -fx-background-repeat: no-repeat;
+}
+
+.button-bar{
+    -fx-spacing: 80px;
+    -fx-alignment: center;
+}
+
+.button{
+    -fx-border-radius: 4pt;
+    -fx-background-radius: 4pt;
+    -fx-text-fill: #ed7786;
+    -fx-background-color: white cover;
+    -fx-border-color: #ed7786;
+    -fx-font-size: 14pt;
+    -fx-font-family: "ui-rounded";
+}
+
+.button:hover{
+    -fx-background-color: #ed7786 cover;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+}
+
+.table-view{
+    /*-fx-background-color: #f4e4e6;*/
+    -fx-border-color: #ed7786;
+}
+
+.table-view .column-header {
+    -fx-background-color: #ed7786;
+    -fx-border-color: white;
+    -fx-text-background-color: white;
+}
+
+.table-row-cell{
+     -fx-background-color: white;
+ }
+
+.table-row-cell:hover {
+    -fx-background-color: rgba(237, 119, 134, 0.40);
+    -fx-text-background-color: white;
+}
+
+.table-row-cell:selected{
+    -fx-background-color: rgba(237, 119, 134, 0.80);
+    -fx-text-background-color: white;
+}
